@@ -27,7 +27,6 @@
   
 
 
-
 :root {
   --nav-background: #5b124c7e;
   --nav-text: #E7C579;
@@ -86,16 +85,16 @@ body{
 
 
 nav {
-    font-family: "Passions Conflict", cursive;
-    background-color: var(--nav-background);
-    color: var(--nav-text);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    height: 120px;
-    position: relative;
-    overflow: visible;
+  font-family: "Passions Conflict", cursive;
+  background-color: var(--nav-background);
+  color: var(--nav-text);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 120px;
+  position: relative;
+  overflow: visible;
 }
 
 .burger{
@@ -106,51 +105,49 @@ nav {
   cursor: pointer;
   color: #E7C579;
   position: fixed;
-  z-index: 3000;
-  
+  z-index: 3000;  
 }
   
-  .logo {
-    font-size: 5rem;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-links li {
-    font-size: 4rem;
-    cursor: pointer;
-  }
+.logo {
+  font-size: 5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  font-size: 4rem;
+  cursor: pointer;
+}
   
   
 
 
 
-  .card-holder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px; 
-    flex-direction: row; 
-    padding: 15px;
-    margin-top: 60px;
-    position: relative;
-  }
-  
+.card-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+  flex-direction: row; 
+  padding: 15px;
+  margin-top: 60px;
+  position: relative;
+}
 
 
-  .card-wrapper {
-    perspective: 1000px;
-    width: 250px;
-    height: 400px;
-    position: relative;
-    transition: transform 0.3s ease;
-  
+
+.card-wrapper {
+  perspective: 1000px;
+  width: 250px;
+  height: 400px;
+  position: relative;
+  transition: transform 0.3s ease;
 }
 
 .card-inner {
@@ -158,8 +155,7 @@ nav {
   height: 100%;
   position: relative;
   transform-style: preserve-3d;
-  transition: transform 1s ease;
-  
+  transition: transform 1s ease; 
 }
 
 .card-inner.flipped {
@@ -213,170 +209,163 @@ nav {
 }
 
 
-  main h1 {
-    font-family: "Parisienne", cursive;
-    font-size: 5rem;
-    color: var(--main-text);
-    text-align: center;
-    margin-top: 40px;
-    transition: transform 0.3s ease;
-    margin-right: 20px;
-    margin-left: 20px;
-    line-height: 90px;
-  }
-  .astro {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px;
-    gap: 50px;
-    margin-top: 50px;
-  }
-  .astrology{
-    font-family: "Poltawski Nowy", serif;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+main h1 {
+  font-family: "Parisienne", cursive;
+  font-size: 5rem;
+  color: var(--main-text);
+  text-align: center;
+  margin-top: 40px;
+  transition: transform 0.3s ease;
+  margin-right: 20px;
+  margin-left: 20px;
+  line-height: 90px;
+}
+.astro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 50px;
+  margin-top: 50px;
+}
+.astrology{
+  font-family: "Poltawski Nowy", serif;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
 
-  }
+.astrology h2 {
+  font-size: 3.5rem;
+  color: var(--main-text);
+  text-align: center;
+  margin: 50px;
+  
+}
 
-  .astrology h2 {
-    font-size: 3.5rem;
-    color: var(--main-text);
-    text-align: center;
-    margin: 50px;
-    
-    
-    
-  }
-  .astrology p {
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-    line-height: 50px;
-    margin-bottom: 20px;
-    
-  }
+.astrology p {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 20px;
+  
+}
 
-  .startbtn {
-    padding: 10px 20px;
-    font-size: 1.5rem;
-    font-family: "Poltawski Nowy", serif;
-    background-color: var(--main-text);
-    color: white;
-    border: none;
-    cursor: pointer;
-    width: 160px;
-    border-radius: 10px;
-    align-self: center;
-    margin-top: 50px;
-    animation: glow 2s infinite ease-in-out;
+.startbtn {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  font-family: "Poltawski Nowy", serif;
+  background-color: var(--main-text);
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 160px;
+  border-radius: 10px;
+  align-self: center;
+  margin-top: 50px;
+  animation: glow 2s infinite ease-in-out;
+}
 
-  }
+.astro img {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
 
-  .astro img {
-    flex: 1;
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
-  }
+.zodiac-signs {
+  font-family: "Poltawski Nowy", serif;
+  font-size: 1.7rem;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+  justify-content: space-between;
+  margin: 30px;
+  line-height: 40px;
+  
+}
 
-  .zodiac-signs {
-    font-family: "Poltawski Nowy", serif;
-    font-size: 1.7rem;
-    color: white;
-    display: flex;
-    align-items: flex-start;
-    text-align: center;
-    justify-content: space-between;
-    margin: 30px;
-    line-height: 40px;
-    
-  }
-
-  .zodiac-signs > div {
-    flex: 1;
-    min-width: 250px; 
-    max-width: 600px;
-    text-align: center;
-    
-  }
+.zodiac-signs > div {
+  flex: 1;
+  min-width: 250px; 
+  max-width: 600px;
+  text-align: center;
+  
+}
 
 
 
 
- #asc {
-    margin-bottom: 50px;
-    height: 300px;
-    width: 330px;
-    margin-bottom: 30px;
-    
-  }
+#asc {
+  margin-bottom: 50px;
+  height: 300px;
+  width: 330px;
+  margin-bottom: 30px;
+  
+}
 
 
 
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color:  var(--sidebar-color);
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    transform: translateX(-100%);
-    transition: transform 0.4s ease;
-    z-index: 2000;
-    overflow: hidden;
-  }
-  .sidebar.active {
-    transform: translateX(0);
-  }
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:  var(--sidebar-color);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(-100%);
+  transition: transform 0.4s ease;
+  z-index: 2000;
+  overflow: hidden;
+}
+.sidebar.active {
+  transform: translateX(0);
+}
 
   
-  .nav-links1 {
-    list-style: none;
-    width: 100%;
-    font-family: "Passions Conflict", cursive;
-    
-  }
-
-  .nav-links1 li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 0px 25px;
-  }
+.nav-links1 {
+  list-style: none;
+  width: 100%;
+  font-family: "Passions Conflict", cursive;
   
-  .nav-links1 li div{
-    font-size: 4rem;
-    color: var(--nav-text);
-    margin: 10px;
-    justify-content: left;
-    gap: 20px;
-  }
+}
+
+.nav-links1 li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0px 25px;
+}
+
+.nav-links1 li div{
+  font-size: 4rem;
+  color: var(--nav-text);
+  margin: 10px;
+  justify-content: flex-start;
+  gap: 20px;
+}
   
-  .icon {
-    font-size: 1.5rem;
-  }
-  
- .arrow {
-    justify-content: right;
- }
-  
+.icon {
+  font-size: 1.5rem;
+}
 
- .wheel {
-    transition: transform 0.03s linear;
-    will-change: transform;
-  }
+.arrow {
+  justify-content: right;
+}
 
 
-
-
+.wheel {
+  transition: transform 0.03s linear;
+  will-change: transform;
+}
 
 
 
@@ -553,163 +542,163 @@ nav {
 
   }
   
-    .nav-links {
-      display: none;
-      flex-direction: column;
-      width: 100%;
-      text-align: center;
-      order: 3;
-      padding: 10px 0;
-    }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    order: 3;
+    padding: 10px 0;
+  }
   
-    .nav-links.active {
-      display: flex;
-    }
-  
-    .nav-links li {
-      padding: 10px 0;
-      font-size: 1.4rem;
-    }
-    
-      .card-wrapper {
-        position: absolute;
-        width: 150px;
-        height: 250px;
-      }
-
-      #card1-wrapper {
-        left: 15%;
-        transform: rotate(-45deg);
-
-      }
-
-      #card2-wrapper {
-        left: 50%;
-        transform: translateX(-50%) rotate(0deg);
-        top: 15px;
-      }
-
-      #card3-wrapper {
-        right: 15%;
-        transform: rotate(45deg);
-      }
-      .astro {
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
-      }
-    
-      .astrology {
-        align-items: center;
-      }
-    
-      .astrology h2 {
-        font-size: 1.8rem;
-      }
-      .astrology p {
-        font-size: 1.1rem;
-        line-height: 40px;
-        margin-right: 15px;
-        margin-left: 15px;
-
-
-      }
-    
-      .startbtn {
-        margin-top: 10px;
-        width: 120px;
-        font-size: 20px;
-        padding: 5px;
-
-      }
-
-      .zodiac-signs {
-        flex-direction: column;
-        align-items: center;
-      }
-    
-      .zodiac-signs > div {
-        max-width: 90%;
-        font-size: 1.1rem;
-        line-height: 40px;
-      }
-
-      .zodiacs {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-        grid-auto-flow: column;
-        gap: 5px;
-        padding: 10px;
-      }
-
-
-      .modal-content {
-        padding: 10px;
-        width: 90%;
-        height: auto;
-        font-size: 1.2rem;
-      }
-      .choice{
-        font-size: 1rem;
-        margin-top: 10px;
-        
-      }
-      .modal-buttons {
-        align-items: center;
-        margin-top: -5px;
-        margin-bottom: 10px;;
-      }
-
-      .modal-buttons button {
-        font-size: 0.9rem;
-        cursor: pointer;
-        background-color: var(--main-text);
-        color: white;
-        font-family: "Poltawski Nowy", serif;
-        width: 90px;
-      }
-      .aries img,
-      .taurus img, 
-      .gemini img,
-      .cancer img,
-      .leo img,
-      .virgo img,
-      .libra img,
-      .scorpio img,
-      .sagittarius img,
-      .capricorn img,
-      .aquarius img,
-      .pisces img {
-        width: 50px;
-        height: 50px;
-      }
-      .aries,
-      .taurus, 
-      .gemini,
-      .cancer,
-      .leo,
-      .virgo,
-      .libra,
-      .scorpio,
-      .sagittarius,
-      .capricorn,
-      .aquarius,
-      .pisces {
-        font-size: 1.8rem;
-      }
-
-      .card-holder {
-        height: 360px;
-      }
-   
-
-    
+  .nav-links.active {
+    display: flex;
   }
 
+  .nav-links li {
+    padding: 10px 0;
+    font-size: 1.4rem;
+  }
+    
+  .card-wrapper {
+    position: absolute;
+    width: 150px;
+    height: 250px;
+  }
+
+  #card1-wrapper {
+    left: 15%;
+    transform: rotate(-45deg);
+
+  }
+
+  #card2-wrapper {
+    left: 50%;
+    transform: translateX(-50%) rotate(0deg);
+    top: 15px;
+  }
+
+  #card3-wrapper {
+    right: 15%;
+    transform: rotate(45deg);
+  }
+  .astro {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .astrology {
+    align-items: center;
+  }
+
+  .astrology h2 {
+    font-size: 1.8rem;
+  }
+  .astrology p {
+    font-size: 1.1rem;
+    line-height: 40px;
+    margin-right: 15px;
+    margin-left: 15px;
+
+
+  }
+    
+  .startbtn {
+    margin-top: 10px;
+    width: 120px;
+    font-size: 20px;
+    padding: 5px;
+
+  }
+
+  .zodiac-signs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .zodiac-signs > div {
+    max-width: 90%;
+    font-size: 1.1rem;
+    line-height: 40px;
+  }
+
+  .zodiacs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-auto-flow: column;
+    gap: 5px;
+    padding: 10px;
+  }
+
+
+  .modal-content {
+    padding: 10px;
+    width: 90%;
+    height: auto;
+    font-size: 1.2rem;
+  }
+  .choice{
+    font-size: 1rem;
+    margin-top: 10px;
+    
+  }
+  .modal-buttons {
+    align-items: center;
+    margin-top: -5px;
+    margin-bottom: 10px;;
+  }
+
+  .modal-buttons button {
+    font-size: 0.9rem;
+    cursor: pointer;
+    background-color: var(--main-text);
+    color: white;
+    font-family: "Poltawski Nowy", serif;
+    width: 90px;
+  }
+  .aries img,
+  .taurus img, 
+  .gemini img,
+  .cancer img,
+  .leo img,
+  .virgo img,
+  .libra img,
+  .scorpio img,
+  .sagittarius img,
+  .capricorn img,
+  .aquarius img,
+  .pisces img {
+    width: 50px;
+    height: 50px;
+  }
+  .aries,
+  .taurus, 
+  .gemini,
+  .cancer,
+  .leo,
+  .virgo,
+  .libra,
+  .scorpio,
+  .sagittarius,
+  .capricorn,
+  .aquarius,
+  .pisces {
+    font-size: 1.8rem;
+  }
+
+  .card-holder {
+    height: 360px;
+  }
+   
+}
 
 
 .nav-links li:hover {
   color: white;
   transition: 0.5s ease;
 }
+
+
+
