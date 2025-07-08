@@ -1,0 +1,332 @@
+{
+  "sun": {
+    "Aries": {
+      "traits": [
+        "Bold",
+        "Energetic",
+        "Confident",
+        "Impulsive"
+      ],
+      "description": "Sun in Aries gives a fiery, brave, and independent core. These individuals are action-oriented and natural leaders."
+    },
+    "Taurus": {
+      "traits": [
+        "Stable",
+        "Patient",
+        "Sensual",
+        "Loyal"
+      ],
+      "description": "Sun in Taurus creates a grounded and reliable personality. These people value comfort, beauty, and long-term security."
+    },
+    "Gemini": {
+      "traits": [
+        "Curious",
+        "Witty",
+        "Talkative",
+        "Adaptable"
+      ],
+      "description": "Sun in Gemini gives a curious and lively mind. They love variety, learning, and social interaction."
+    },
+    "Cancer": {
+      "traits": [
+        "Sensitive",
+        "Nurturing",
+        "Intuitive",
+        "Emotional"
+      ],
+      "description": "Sun in Cancer brings a deeply emotional and protective nature. They value family, tradition, and emotional security."
+    },
+    "Leo": {
+      "traits": [
+        "Charismatic",
+        "Confident",
+        "Creative",
+        "Generous"
+      ],
+      "description": "Sun in Leo gives a dramatic and generous personality. These individuals thrive in the spotlight and enjoy expressing themselves."
+    },
+    "Virgo": {
+      "traits": [
+        "Analytical",
+        "Practical",
+        "Helpful",
+        "Modest"
+      ],
+      "description": "Sun in Virgo results in a detail-oriented and service-focused character. They are dependable and perfectionist."
+    },
+    "Libra": {
+      "traits": [
+        "Diplomatic",
+        "Charming",
+        "Balanced",
+        "Romantic"
+      ],
+      "description": "Sun in Libra creates a peacemaker with a love for beauty and relationships. Harmony and fairness are key values."
+    },
+    "Scorpio": {
+      "traits": [
+        "Intense",
+        "Passionate",
+        "Secretive",
+        "Determined"
+      ],
+      "description": "Sun in Scorpio produces a deep and emotionally powerful individual. They seek truth, transformation, and emotional depth."
+    },
+    "Sagittarius": {
+      "traits": [
+        "Adventurous",
+        "Optimistic",
+        "Philosophical",
+        "Honest"
+      ],
+      "description": "Sun in Sagittarius brings an expansive, freedom-loving personality. These individuals seek meaning and truth."
+    },
+    "Capricorn": {
+      "traits": [
+        "Disciplined",
+        "Responsible",
+        "Ambitious",
+        "Reserved"
+      ],
+      "description": "Sun in Capricorn gives a structured and goal-driven character. They are practical and focus on long-term success."
+    },
+    "Aquarius": {
+      "traits": [
+        "Innovative",
+        "Independent",
+        "Humanitarian",
+        "Eccentric"
+      ],
+      "description": "Sun in Aquarius results in a forward-thinking, unique individual who values freedom and collective progress."
+    },
+    "Pisces": {
+      "traits": [
+        "Compassionate",
+        "Dreamy",
+        "Creative",
+        "Intuitive"
+      ],
+      "description": "Sun in Pisces creates a spiritual and imaginative person. They are sensitive and emotionally connected to the world."
+    }
+  },
+  "moon": {
+    "Aries": {
+      "traits": [
+        "Impulsive emotions",
+        "Quick to react",
+        "Passionate",
+        "Restless"
+      ],
+      "description": "Moon in Aries leads to intense emotional reactions and a need to assert feelings quickly."
+    },
+    "Taurus": {
+      "traits": [
+        "Emotionally stable",
+        "Sensual",
+        "Comfort-seeking",
+        "Patient"
+      ],
+      "description": "Moon in Taurus brings emotional calm and reliability. They express love through physical touch and security."
+    },
+    "Gemini": {
+      "traits": [
+        "Mentally active",
+        "Emotionally detached",
+        "Witty",
+        "Inconsistent"
+      ],
+      "description": "Moon in Gemini gives a curious emotional world, processed through thought and communication."
+    },
+    "Cancer": {
+      "traits": [
+        "Deeply emotional",
+        "Protective",
+        "Empathetic",
+        "Nurturing"
+      ],
+      "description": "Moon in Cancer brings strong intuition and emotional depth. These people are deeply caring and family-oriented."
+    },
+    "Leo": {
+      "traits": [
+        "Dramatic emotions",
+        "Proud",
+        "Warm-hearted",
+        "Generous"
+      ],
+      "description": "Moon in Leo creates a need to feel loved and admired. Emotional expression is bold and affectionate."
+    },
+    "Virgo": {
+      "traits": [
+        "Reserved emotions",
+        "Helpful",
+        "Cautious",
+        "Worrier"
+      ],
+      "description": "Moon in Virgo shows care through service. These people may overthink emotions and need order to feel safe."
+    },
+    "Libra": {
+      "traits": [
+        "Peace-seeking",
+        "Romantic",
+        "Indecisive",
+        "Sociable"
+      ],
+      "description": "Moon in Libra seeks emotional balance and partnership. They feel secure in beauty and harmony."
+    },
+    "Scorpio": {
+      "traits": [
+        "Intense emotions",
+        "Private",
+        "Loyal",
+        "Transformative"
+      ],
+      "description": "Moon in Scorpio adds emotional intensity and secrecy. These people feel deeply and are emotionally resilient."
+    },
+    "Sagittarius": {
+      "traits": [
+        "Optimistic",
+        "Restless",
+        "Honest",
+        "Free-spirited"
+      ],
+      "description": "Moon in Sagittarius brings cheerful emotions and a need for emotional freedom. They crave new experiences."
+    },
+    "Capricorn": {
+      "traits": [
+        "Reserved",
+        "Disciplined",
+        "Emotionally mature",
+        "Cautious"
+      ],
+      "description": "Moon in Capricorn creates emotional resilience and self-control. They value structure and reliability in emotional matters."
+    },
+    "Aquarius": {
+      "traits": [
+        "Detached",
+        "Unconventional",
+        "Idealistic",
+        "Humanitarian"
+      ],
+      "description": "Moon in Aquarius processes emotions logically. These people are emotionally independent and value fairness."
+    },
+    "Pisces": {
+      "traits": [
+        "Sensitive",
+        "Dreamy",
+        "Compassionate",
+        "Empathetic"
+      ],
+      "description": "Moon in Pisces brings emotional fluidity and spiritual sensitivity. These individuals absorb others' feelings."
+    }
+  },
+  "ascendant": {
+    "Aries": {
+      "traits": [
+        "Energetic impression",
+        "Assertive",
+        "Direct",
+        "Fast-moving"
+      ],
+      "description": "Aries rising gives a bold and straightforward first impression. These individuals appear active and competitive."
+    },
+    "Taurus": {
+      "traits": [
+        "Calm presence",
+        "Steady",
+        "Grounded",
+        "Sensual"
+      ],
+      "description": "Taurus rising gives a strong, serene, and physically grounded outer personality."
+    },
+    "Gemini": {
+      "traits": [
+        "Expressive",
+        "Talkative",
+        "Quick-witted",
+        "Adaptable"
+      ],
+      "description": "Gemini rising gives a sociable and lively presence. These individuals come across as intelligent and curious."
+    },
+    "Cancer": {
+      "traits": [
+        "Nurturing vibe",
+        "Protective",
+        "Soft-spoken",
+        "Sensitive"
+      ],
+      "description": "Cancer rising gives off a caring, gentle, and home-loving aura. Others feel safe and supported in their presence."
+    },
+    "Leo": {
+      "traits": [
+        "Dramatic",
+        "Confident",
+        "Magnetic",
+        "Regal"
+      ],
+      "description": "Leo rising appears charismatic and warm. They often come across as larger-than-life or very expressive."
+    },
+    "Virgo": {
+      "traits": [
+        "Modest",
+        "Helpful",
+        "Neat",
+        "Analytical"
+      ],
+      "description": "Virgo rising gives a clean, organized, and observant impression. These people seem intelligent and reliable."
+    },
+    "Libra": {
+      "traits": [
+        "Charming",
+        "Diplomatic",
+        "Polished",
+        "Attractive"
+      ],
+      "description": "Libra rising comes off as graceful and socially aware. They often appear well-mannered and fair-minded."
+    },
+    "Scorpio": {
+      "traits": [
+        "Mysterious",
+        "Intense",
+        "Private",
+        "Magnetic"
+      ],
+      "description": "Scorpio rising gives off a deep, penetrating presence. They appear powerful, reserved, and emotionally complex."
+    },
+    "Sagittarius": {
+      "traits": [
+        "Adventurous",
+        "Open-minded",
+        "Philosophical",
+        "Blunt"
+      ],
+      "description": "Sagittarius rising comes off as upbeat, adventurous, and enthusiastic. They're often seen as optimistic travelers or thinkers."
+    },
+    "Capricorn": {
+      "traits": [
+        "Responsible",
+        "Mature",
+        "Reserved",
+        "Disciplined"
+      ],
+      "description": "Capricorn rising appears serious, composed, and ambitious. They often look professional and goal-driven."
+    },
+    "Aquarius": {
+      "traits": [
+        "Eccentric",
+        "Independent",
+        "Cool",
+        "Intellectual"
+      ],
+      "description": "Aquarius rising gives a quirky and unique appearance. They are seen as innovative and socially conscious."
+    },
+    "Pisces": {
+      "traits": [
+        "Dreamy",
+        "Gentle",
+        "Empathic",
+        "Elusive"
+      ],
+      "description": "Pisces rising appears soft, mysterious, and emotionally aware. They often come off as artistic or otherworldly."
+    }
+  }
+}

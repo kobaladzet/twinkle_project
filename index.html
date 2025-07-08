@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Twinkle, Astrology, tarot, card, zodiac">
+    <meta name="author" content="Kobaladze Tamar">
+    <title>Twinkle</title>
+    <link href="reset.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="burger" id="burger">&#9776;</div>
+    <header id="header">
+        <nav>
+            <h1 class="logo">Twinkle</h1>
+            <!-- <div class="burger" id="burger">&#9776;</div> -->
+            <ul class="nav-links">
+              <li>About Us</li>
+              <li>Contact Us</li>
+            </ul>
+          </nav>
+    </header>
+    
+    <div class="sidebar" id="sidebar">
+        <h1 class="logo1">Twinkle</h1>
+        <ul class="nav-links1">
+          <li><div><img class="icon" src="images/svgs/sun icon.svg" alt="icon"> About Us </div><img class="arrow" src="images/svgs/arrow.svg" alt=">"></li>
+          <li><div><img class="icon" src="images/svgs/moon icon.svg" alt="icon"> Contact Us</div> <img class="arrow" src="images/svgs/arrow.svg" alt=">"></li>
+        </ul>
+    </div>
+      
+    <main>
+        <h1>pick your today's luck</h1>
+        
+        <div class="card-holder">
+            <div class="card-wrapper" id="card1-wrapper">
+                <div class="card-inner" id="card1-inner">
+                <div class="card-front">
+                    <img id="card1" src="images/star tarot card.png" alt="tarot card">
+                </div>
+                <div class="card-back">
+                    <img src="images/tarot back1.png" alt="back of tarot card">
+                    <div class="card-text">You'll discover something meaningful today.</div>
+                </div>
+                </div>
+            </div>
+
+            <div class="card-wrapper" id="card2-wrapper">
+                <div class="card-inner" id="card2-inner">
+                <div class="card-front">
+                    <img id="card2" src="images/star tarot card.png" alt="tarot card">
+                </div>
+                <div class="card-back">
+                    <img src="images/tarot back1.png" alt="back of tarot card">
+                    <div class="card-text">Be patient — clarity is coming.</div>
+                </div>
+                </div>
+            </div>
+
+            <div class="card-wrapper" id="card3-wrapper">
+                <div class="card-inner" id="card3-inner">
+                <div class="card-front">
+                    <img id="card3" src="images/star tarot card.png" alt="tarot card">
+                </div>
+                <div class="card-back">
+                    <img src="images/tarot back1.png" alt="back of tarot card">
+                    <div class="card-text">A surprise awaits you by nightfall.</div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+
+        <div class="astro">
+            <div class="astrology">
+                <h2>
+                    The Art of Astrology
+                </h2>
+                <p> Horoscopes, in astrology, are stylized charts depicting the celestial positions at a specific time and location, often used to interpret personality and predict future events. They are based on the belief that the positions of the sun, moon, and planets, along with other factors, influence human affairs. Each of the twelve zodiac signs is associated with a particular period of the year and is believed to correspond with certain personality traits.</p>
+                <button class="startbtn">Start</button>
+            </div>
+            <img class="wheel" src="images/svgs/Group.svg" alt="horoscope.svg">
+    
+
+        </div>
+        <div class="zodiac-signs">
+            <div class="sun">
+                <img id="sun" src="images/svgs/sun.svg" alt="sun image">
+                <p id="sun-text">Your Sun sign is the astrological sign that primarily influenced the Sun at the moment of your birth. As such, it's the sign of the zodiac that most prominently influences you. It explains you. It reveals your most pronounced personality traits. It even defines, to some degree, who you are, how you perceive the world, and where you allow your thoughts to take you.</p>
+            </div>
+            <div class="moon">
+                <img id="moon" src="images/svgs/moon.svg" alt="moon iamge">
+                <p id="moon-text">Your Moon sign is perhaps your clearest indicator as to the workings of your inner world. It describe your emotional life. Your desires. And the deepest parts of your being and everything that makes you feel emotionally secure. Your considerations that take place beneath the surface and aren't apparent, even to you.</p>
+            </div>
+            <div class="asc">
+                <img id="asc" src="images/svgs/AsC.svg" alt="Ascendant">
+                <p id="rising-text">In astrology, the ascendant sign (also known as the rising sign) represents how a person presents themselves to the world and the first impression they make on others. It's the zodiac sign that was rising on the eastern horizon at the exact moment of your birth. While your sun sign reveals your core identity, the ascendant sign influences your physical appearance, mannerisms, and how you approach life's challenges.</p>
+            </div>
+        </div>
+        
+        
+
+    </main>
+    
+
+    <div id="dialog-box" class="modal hidden">
+    <div class="modal-content">
+        <p>Start analyzing your personal character based on your zodiac signs</p>
+        <p class="choice">choose your sun sign</p>
+        <div class="zodiacs">
+            <div class="aries" id="aries"> 
+                <img src="images/zodiac signs/aries.svg" alt="aries">
+                <span>Aries</span>
+            </div>
+            <div class="taurus" id="taurus"> 
+                <img src="images/zodiac signs/taurus.svg" alt="taurus">
+                <span>Taurus</span>
+            </div>
+            <div class="gemini" id="gemini"> 
+                <img src="images/zodiac signs/gemini.svg" alt="gemini">
+                <span>Gemini</span>
+            </div>
+            <div class="cancer" id="cancer"> 
+                <img src="images/zodiac signs/cancer.svg" alt="cancer">
+                <span>Cancer</span>
+            </div>
+            <div class="leo" id="leo"> 
+                <img src="images/zodiac signs/leo.svg" alt="leo">
+                <span>Leo</span>
+            </div>
+            <div class="virgo" id="virgo"> 
+                <img src="images/zodiac signs/virgo.svg" alt="virgo">
+                <span>Virgo</span>
+            </div>
+            <div class="libra" id="libra"> 
+                <img src="images/zodiac signs/libra.svg" alt="libra">
+                <span>Libra</span>
+            </div>
+            <div class="scorpio" id="scorpio"> 
+                <img src="images/zodiac signs/scorpio.svg" alt="scorpio">
+                <span>Scorpio</span>
+            </div>
+            <div class="sagittarius" id="sagittarius"> 
+                <img src="images/zodiac signs/sagittarius.svg" alt="sagittarius">
+                <span>Sagittarius</span>
+            </div>
+            <div class="capricorn" id="capricorn"> 
+                <img src="images/zodiac signs/capricorn.svg" alt="capricorn">
+                <span>Capricorn</span>
+            </div>
+            <div class="aquarius" id="aquarius"> 
+                <img src="images/zodiac signs/aquarius.svg" alt="aquarius">
+                <span>Aquarius</span>
+            </div>
+            <div class="pisces" id="pisces"> 
+                <img src="images/zodiac signs/pisces.svg" alt="pisces">
+                <span>Pisces</span>
+            </div>
+        </div>
+        <div class="modal-buttons">
+            <button id="cancel-btn">Cancel</button>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+    </div>
+    
+    <div id="dialog-box2" class="modal hidden">
+    <div class="modal-content">
+        <p>Start analyzing your personal character based on your zodiac signs</p>
+        <p class="choice">choose your moon sign</p>
+        <div class="zodiacs">
+            <div class="aries" id="aries"> 
+                <img src="images/zodiac signs/aries.svg" alt="aries">
+                <span>Aries</span>
+            </div>
+            <div class="taurus" id="taurus"> 
+                <img src="images/zodiac signs/taurus.svg" alt="taurus">
+                <span>Taurus</span>
+            </div>
+            <div class="gemini" id="gemini"> 
+                <img src="images/zodiac signs/gemini.svg" alt="gemini">
+                <span>Gemini</span>
+            </div>
+            <div class="cancer" id="cancer"> 
+                <img src="images/zodiac signs/cancer.svg" alt="cancer">
+                <span>Cancer</span>
+            </div>
+            <div class="leo" id="leo"> 
+                <img src="images/zodiac signs/leo.svg" alt="leo">
+                <span>Leo</span>
+            </div>
+            <div class="virgo" id="virgo"> 
+                <img src="images/zodiac signs/virgo.svg" alt="virgo">
+                <span>Virgo</span>
+            </div>
+            <div class="libra" id="libra"> 
+                <img src="images/zodiac signs/libra.svg" alt="libra">
+                <span>Libra</span>
+            </div>
+            <div class="scorpio" id="scorpio"> 
+                <img src="images/zodiac signs/scorpio.svg" alt="scorpio">
+                <span>Scorpio</span>
+            </div>
+            <div class="sagittarius" id="sagittarius"> 
+                <img src="images/zodiac signs/sagittarius.svg" alt="sagittarius">
+                <span>Sagittarius</span>
+            </div>
+            <div class="capricorn" id="capricorn"> 
+                <img src="images/zodiac signs/capricorn.svg" alt="capricorn">
+                <span>Capricorn</span>
+            </div>
+            <div class="aquarius" id="aquarius"> 
+                <img src="images/zodiac signs/aquarius.svg" alt="aquarius">
+                <span>Aquarius</span>
+            </div>
+            <div class="pisces" id="pisces"> 
+                <img src="images/zodiac signs/pisces.svg" alt="pisces">
+                <span>Pisces</span>
+            </div>
+        </div>
+        <div class="modal-buttons">
+            <button id="cancel-btn2">Cancel</button>
+            <button id="next-btn2">Next</button>
+        </div>
+        
+    </div>
+    </div>
+
+    
+    <div id="dialog-box3" class="modal hidden">
+    <div class="modal-content">
+        <p>Start analyzing your personal character based on your zodiac signs</p>
+        <p class="choice">choose your rising (Ascendant) sign</p>
+        <div class="zodiacs">
+            <div class="aries" id="aries"> 
+                <img src="images/zodiac signs/aries.svg" alt="aries">
+                <span>Aries</span>
+            </div>
+            <div class="taurus" id="taurus"> 
+                <img src="images/zodiac signs/taurus.svg" alt="taurus">
+                <span>Taurus</span>
+            </div>
+            <div class="gemini" id="gemini"> 
+                <img src="images/zodiac signs/gemini.svg" alt="gemini">
+                <span>Gemini</span>
+            </div>
+            <div class="cancer" id="cancer"> 
+                <img src="images/zodiac signs/cancer.svg" alt="cancer">
+                <span>Cancer</span>
+            </div>
+            <div class="leo" id="leo"> 
+                <img src="images/zodiac signs/leo.svg" alt="leo">
+                <span>Leo</span>
+            </div>
+            <div class="virgo" id="virgo"> 
+                <img src="images/zodiac signs/virgo.svg" alt="virgo">
+                <span>Virgo</span>
+            </div>
+            <div class="libra" id="libra"> 
+                <img src="images/zodiac signs/libra.svg" alt="libra">
+                <span>Libra</span>
+            </div>
+            <div class="scorpio" id="scorpio"> 
+                <img src="images/zodiac signs/scorpio.svg" alt="scorpio">
+                <span>Scorpio</span>
+            </div>
+            <div class="sagittarius" id="sagittarius"> 
+                <img src="images/zodiac signs/sagittarius.svg" alt="sagittarius">
+                <span>Sagittarius</span>
+            </div>
+            <div class="capricorn" id="capricorn"> 
+                <img src="images/zodiac signs/capricorn.svg" alt="capricorn">
+                <span>Capricorn</span>
+            </div>
+            <div class="aquarius" id="aquarius"> 
+                <img src="images/zodiac signs/aquarius.svg" alt="aquarius">
+                <span>Aquarius</span>
+            </div>
+            <div class="pisces" id="pisces"> 
+                <img src="images/zodiac signs/pisces.svg" alt="pisces">
+                <span>Pisces</span>
+            </div>
+        </div>
+        <div class="modal-buttons">
+            <button id="cancel-btn3">Cancel</button>
+            <button id="next-btn3">Next</button>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
