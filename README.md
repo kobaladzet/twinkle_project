@@ -1,4 +1,4 @@
-#Twinkle
+# Twinkle
 ---
 
 Twinkle is an interactive astrology and tarot web app. It combines zodiac wisdom, tarot card animations, and a clean responsive UI to offer a magical user experience. The project was developed as a part of the final examination requirement. 
