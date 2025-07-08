@@ -55,7 +55,7 @@ window.addEventListener("DOMContentLoaded", () => {
   });
 
   
-  fetch("zodiac_traits.json").then((response) => response.json()).then((data) => {
+  fetch("zodiac_traits.json").then((response) => response.json()).then((data) => {    
     nextBtn.addEventListener('click', () => {
       dataSun = data.sun[selectedSign]; 
       suntext.innerHTML = `${dataSun.description}<br/><br/> ${'Your traits:'}<br/> ${dataSun.traits.join(", ")}  `;
