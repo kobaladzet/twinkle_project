@@ -55,18 +55,34 @@ window.addEventListener("DOMContentLoaded", () => {
   });
 
   
-  fetch("zodiac_traits.json").then((response) => response.json()).then((data) => {    
+  fetch("zodiac_traits.json").then((response) => response.json()).then((data) => {   
+    
     nextBtn.addEventListener('click', () => {
-      dataSun = data.sun[selectedSign]; 
-      suntext.innerHTML = `${dataSun.description}<br/><br/> ${'Your traits:'}<br/> ${dataSun.traits.join(", ")}  `;
+      if (selectedSign) {
+        dataSun = data.sun[selectedSign]; 
+        suntext.innerHTML = `${dataSun.description}<br/><br/> ${'Your traits:'}<br/> ${dataSun.traits.join(", ")}  `;
+        dialogBox.classList.add('hidden');
+        dialogBox2.classList.remove('hidden');
+        selectedSign=null;
+      }
+      
     });
     nextBtn2.addEventListener('click', () =>{
+      if (selectedSign) {
       dataMoon = data.moon[selectedSign];
       moontext.innerHTML = `${dataMoon.description}<br/><br/> ${'Your traits:'}<br/> ${dataMoon.traits.join(", ")}  `;
+      dialogBox2.classList.add('hidden');
+      dialogBox3.classList.remove('hidden');
+      selectedSign=null;
+      }
     })
     nextBtn3.addEventListener('click', () =>{
+      if (selectedSign) {
       dataRising = data.ascendant[selectedSign];
       risingtext.innerHTML = `${dataRising.description}<br/><br/> ${'Your traits:'}<br/> ${dataRising.traits.join(", ")}  `;
+       dialogBox3.classList.add('hidden');
+       selectedSign=null;
+      }
     })
   });
 
@@ -115,7 +131,7 @@ cards.forEach(id => {
 
       cards.forEach(otherId => {
         const otherCard = document.getElementById(otherId);
-        otherCard.style.pointerEvents = 'auto';
+        otherCard.style.pointerEvents = 'auto';  //es imistvis rom yvelas gaxsna iyos shesadzlebeli satitaod 
         otherCard.style.opacity = '1';
       });
     } else {
@@ -149,27 +165,15 @@ startBtn.addEventListener('click', () => {
 
 cancelBtn.addEventListener('click', () => {
   dialogBox.classList.add('hidden');
-
-
-});
-
-nextBtn.addEventListener('click', () => {
-  dialogBox.classList.add('hidden');
-  dialogBox2.classList.remove('hidden');
+  selectedSign=null;
 });
 
 cancelBtn2.addEventListener('click', () => {
   dialogBox2.classList.add('hidden');
+  selectedSign=null;
 });
 
-nextBtn2.addEventListener('click', () =>{
- 
-  dialogBox2.classList.add('hidden');
-  dialogBox3.classList.remove('hidden');
-})
 cancelBtn3.addEventListener('click', () => {
   dialogBox3.classList.add('hidden');
+  selectedSign=null;
 });
-nextBtn3.addEventListener('click', () =>{
-  dialogBox3.classList.add('hidden');
-})

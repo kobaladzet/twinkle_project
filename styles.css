@@ -107,6 +107,7 @@ nav {
 .logo {
   font-size: 7rem;
   margin-left: 30px;
+  cursor: pointer;
 }
 
 .nav-links {
@@ -211,6 +212,7 @@ main h1 {
   margin-left: 20px;
   line-height: 90px;
   animation: fadeIn 1.5s ease forwards;
+  
 }
 .astro {
   display: flex;
@@ -390,7 +392,7 @@ main h1 {
 .choice{
   color: white;
   font-size: 1.5rem;
-  margin-top: 10px;
+  margin: 10px 0px;
   
 }
 
@@ -418,7 +420,7 @@ main h1 {
   gap: 10px;
   margin: 0 auto;
   .selected {
-    border: var(--main-text) solid 1px;
+    outline: var(--main-text) solid 2px;
   }
 }
 
