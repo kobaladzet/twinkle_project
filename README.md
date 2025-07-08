@@ -22,15 +22,15 @@ On the first sight user can pick a card as a daily reader, which represents thei
 what they represent and how it is expressed on their treats based on sun moon and rising signs which they can choose by clicking on the "srart" button.
 
 ### screenshots
-![image](https://github.com/user-attachments/assets/341f652d-5b27-4d06-a992-6c953e398bf9)
-![image](https://github.com/user-attachments/assets/deb5a078-bae8-42ad-8063-bd5582e1b631)
+![image](https://github.com/user-attachments/assets/7b8928d8-292a-454b-b4bc-85f465de16f0)
+![image](https://github.com/user-attachments/assets/eeccaa7d-1dff-44e5-83ec-5bdf98b6eeb4)
 ![image](https://github.com/user-attachments/assets/9add3403-8334-4248-ac9d-84e1f751bc15)
 ![image](https://github.com/user-attachments/assets/feab647b-030e-43bc-abe3-5587b98e5610)
 ![image](https://github.com/user-attachments/assets/a0607404-dded-460c-b5a4-894f9b9c816e)
 
 ### Mobile Design  
-![image](https://github.com/user-attachments/assets/fc9cc0cb-14c6-4dee-bc46-cb0e534dc425)
-![image](https://github.com/user-attachments/assets/6a7fa171-55ed-4a09-abd7-15dcf37ceb7a)
+![image](https://github.com/user-attachments/assets/c8314463-3104-4dee-99b4-20b77a6008ef)
+![image](https://github.com/user-attachments/assets/1ef10a36-b1e9-41da-a3de-ae3b64627fa3)
 ![image](https://github.com/user-attachments/assets/223e3057-ad4d-4a39-b8d6-3cb568d3f261)
 ![image](https://github.com/user-attachments/assets/b328539d-9c8c-406f-a903-30aaab57595e)
 
