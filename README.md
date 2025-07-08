@@ -28,6 +28,17 @@ what they represent and how it is expressed on their treats based on sun moon an
 ![image](https://github.com/user-attachments/assets/feab647b-030e-43bc-abe3-5587b98e5610)
 ![image](https://github.com/user-attachments/assets/a0607404-dded-460c-b5a4-894f9b9c816e)
 
+Mobile Design  
+![image](https://github.com/user-attachments/assets/fc9cc0cb-14c6-4dee-bc46-cb0e534dc425)
+![image](https://github.com/user-attachments/assets/7268e01e-64e2-4840-9eb4-741e27f935a7)
+![image](https://github.com/user-attachments/assets/6a7fa171-55ed-4a09-abd7-15dcf37ceb7a)
+![image](https://github.com/user-attachments/assets/223e3057-ad4d-4a39-b8d6-3cb568d3f261)
+![image](https://github.com/user-attachments/assets/b328539d-9c8c-406f-a903-30aaab57595e)
+
+
+
+
+
 
 
 
